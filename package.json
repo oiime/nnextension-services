@@ -1,0 +1,30 @@
+{
+  "name": "nnextension-services",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Itamar Maltz <ism@exec.fail>",
+  "license": "GPLv3",
+  "scripts": {
+    "api": "node scripts/api.js",
+    "test": "mocha test/**/*.spec.js"
+  },
+  "dependencies": {
+    "ajv": "^6.0.1",
+    "app-module-path": "^2.2.0",
+    "bluebird": "^3.5.1",
+    "ioredis": "^3.2.2",
+    "kcors": "^2.2.1",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.3.0",
+    "lazy-modules-directory": "^0.1.0",
+    "pino": "^4.10.3",
+    "uenv": "^0.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.1.0",
+    "standard": "^10.0.3"
+  }
+}
